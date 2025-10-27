@@ -97,6 +97,14 @@ docker run --rm -p 8000:8000 \
     aws_rag_app app_api_handler.py
 ```
 
+```
+npm install
+```
+
+```
+cdk deploy
+```
+
 ## Testing Locally
 
 After running the Docker container on localhost, you can access an interactive API page locally to test it: `http://0.0.0.0:8000/docs`.
