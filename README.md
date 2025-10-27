@@ -102,6 +102,10 @@ npm install
 ```
 
 ```
+cdk bootstrap aws://835156586196/us-east-1
+```
+
+```
 cdk deploy
 ```
 
