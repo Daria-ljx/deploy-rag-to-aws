@@ -41,7 +41,7 @@ python populate_database.py --reset
 ```sh
 # Execute from image/src directory
 cd image/src
-python rag_app/query_rag.py "how much does a landing page cost?"
+python -m rag_app.query_rag
 ```
 
 Example output:
