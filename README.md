@@ -39,9 +39,9 @@ python populate_database.py --reset
 ### Running the App
 
 ```sh
-# Execute from image/src directory
+# Execute from image directory
 cd image/src
-python -m rag_app.query_rag
+python -m src.rag_app.query_rag
 ```
 
 Example output:
