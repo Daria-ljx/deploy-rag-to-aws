@@ -40,7 +40,7 @@ python populate_database.py --reset
 
 ```sh
 # Execute from image directory
-cd image/src
+cd image
 python -m src.rag_app.query_rag
 ```
 
@@ -56,8 +56,8 @@ Sources: ['src/data/source/galaxy-design-client-guide.pdf:1:0', 'src/data/source
 ### Starting FastAPI Server
 
 ```sh
-# From image/src directory.
-python app_api_handler.py
+# From image directory.
+python -m src.app_api_handler
 ```
 
 Then go to `http://0.0.0.0:8000/docs` to try it out.
